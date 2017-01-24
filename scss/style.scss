@@ -1,0 +1,36 @@
+@import 'vendors/bootstrap';
+@import 'vendors/variables';
+@import 'vendors/bootswatch';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#carousel-example-generic {
+    padding-top: 8rem;
+    ul {
+        li {
+            padding-left: 3rem;
+            font-size: 1.9rem;
+        }
+    }
+}
+
+.control {
+    line-height: 55rem !important;
+    z-index: 5 !important;
+}
+
+#plan {
+	.panel {
+		background-color: #003C2D;
+		margin: 0.3rem;
+		padding: 1rem;
+		line-height: 4rem;
+
+	}
+	.name-plan {
+		font-weight: 600;
+	}
+}
